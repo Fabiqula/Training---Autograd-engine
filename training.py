@@ -3,7 +3,6 @@ print(torch.version.cuda)
 from torch import nn
 import torch.nn.functional as F
 
-
 batch_size = 64 # how many independent sequences will we process in parallel?
 block_size = 256 # what is the maximum context length for predictions?
 max_iters = 5000
